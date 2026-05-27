@@ -8,7 +8,10 @@ ResolumeClearHotkey is a simple system tray App that assigns the **Ctrl + Delete
 <img width="192" height="67" alt="h1" src="https://github.com/user-attachments/assets/ad12eb51-c3a5-4f00-a3eb-c334d80768d4" />  
   
 
-<img width="184" height="54" alt="h2" src="https://github.com/user-attachments/assets/755d04ed-9982-4532-b541-7a5ae2e6e904" />
+<img width="184" height="54" alt="h2" src="https://github.com/user-attachments/assets/755d04ed-9982-4532-b541-7a5ae2e6e904" />  
+  
+<img width="150" height="70" alt="arenadel01" src="https://github.com/user-attachments/assets/9d48530b-3be0-44fe-9645-f61e7b20149a" />
+
 
 ### How to Use
 
@@ -47,21 +50,35 @@ Selected clips are cleared one by one through the API.
 
 For this reason, **Undo (Ctrl + Z)** is also applied sequentially and must be pressed multiple times to restore multiple deleted clips.
 
-#### 3. Shortcut Works Only When Connected
+#### 3. Security Notice
 
-The hotkey is enabled only when the App is successfully connected to the Resolume API.
+**[Windows]**
+When launching the application for the first time, Windows may display a security warning because the application is not digitally signed.
 
-For convenience, it is recommended to add ResolumeClearHotkey to the Windows Startup folder.
+**[macOS]**
+When launching the App for the first time, the **Privacy & Security** window may appear.
 
-#### 4. Keep the Tray Icon Visible
+Enable the App as an **Input Monitoring** app, then restart the App.
 
-Keeping the tray icon visible makes it easy to check the connection status.
+#### 4. Notes
 
-Windows Settings:
+This is a lightweight utility that activates the hotkey only when Resolume is running.
 
-**Taskbar Settings → Other System Tray Icons → Enable "ResolumeClearHotkey"**
+For convenient operation, it is recommended to register the App to start automatically when the computer boots and keep the tray/menu bar icon visible.
 
-### Tray Icon Status
+**[Windows]**
+- Add the App to **Startup**
+- Enable the tray icon from:
+  **Taskbar Settings → Other System Tray Icons**
+
+**[macOS]**
+- Move the App to the **Applications** folder
+- Register it from:
+  **System Settings → General → Login Items**
+
+---
+
+#### Tray Icon Status
 
 - Gray icon: Not connected
 - Green icon: Connected to Resolume API
@@ -76,7 +93,9 @@ ResolumeClearHotkey는 Resolume에서 클립 삭제(Clear)를 **Ctrl + Delete** 
 <img width="192" height="67" alt="h1" src="https://github.com/user-attachments/assets/ad12eb51-c3a5-4f00-a3eb-c334d80768d4" />  
   
 
-<img width="184" height="54" alt="h2" src="https://github.com/user-attachments/assets/755d04ed-9982-4532-b541-7a5ae2e6e904" />
+<img width="184" height="54" alt="h2" src="https://github.com/user-attachments/assets/755d04ed-9982-4532-b541-7a5ae2e6e904" />  
+  
+<img width="150" height="70" alt="arenadel01" src="https://github.com/user-attachments/assets/9d48530b-3be0-44fe-9645-f61e7b20149a" />
 
 ### 사용방법
 
@@ -114,21 +133,33 @@ Resolume에서 다음 메뉴를 열어 설정해 주세요.
 
 따라서 **되돌리기(Ctrl + Z)** 역시 순차적으로 적용되며, 여러 개의 클립을 복구하려면 Ctrl + Z를 여러 번 눌러야 합니다.
 
-#### 3. API 연결 시에만 단축키 동작
+#### 3. 보안 안내
 
-Resolume API와 연결된 상태에서만 단축키가 활성화됩니다.
+**[Windows]**
+앱을 처음 실행할 때, 인증된 디지털 서명이 없는 앱이라는 보안 경고가 표시될 수 있습니다.
 
-편리하게 사용하려면 앱을 Windows 시작프로그램에 등록해 두는 것을 권장합니다.
+**[macOS]**
+앱을 처음 실행할 때 **개인정보 보호 및 보안(Privacy & Security)** 창이 표시될 수 있습니다.
 
-#### 4. 시스템 트레이 아이콘 항상 표시 권장
+앱을 **입력 모니터링(Input Monitoring)** 앱으로 활성화한 후 앱을 다시 실행해 주세요.
 
-시스템 트레이에 항상 표시되도록 설정하면 연결 상태를 쉽게 확인할 수 있습니다.
+#### 4. 참고
 
-Windows 설정:
+이 앱은 Resolume이 실행되어 있을 때만 단축키가 활성화되는 가벼운 유틸리티입니다.
 
-**작업 표시줄 설정 → 기타 시스템 트레이 아이콘 → ResolumeClearHotkey 켜기**
+부팅 시 자동 실행되도록 등록하고 시스템 트레이(메뉴바)에 항상 표시되도록 설정하면 더욱 편리하게 사용할 수 있습니다.
 
-### 트레이 아이콘 상태
+**[Windows]**
+- 앱을 **시작프로그램(Startup)** 에 등록
+- **작업 표시줄 설정 → 기타 시스템 트레이 아이콘** 에서 아이콘 표시 활성화
+
+**[macOS]**
+- 앱을 **Applications** 폴더로 이동
+- **시스템 설정 → 일반 → 로그인 항목(Login Items)** 에 등록
+
+---
+
+#### 트레이 아이콘 상태
 
 - 회색 아이콘 : 연결 안됨
 - 녹색 아이콘 : Resolume API 연결됨
