@@ -85,7 +85,7 @@ For convenient operation, it is recommended to register the App to start automat
 
 ---
 
-## Resolume ClearHotkey V1.0
+## Resolume Clear Hotkey V1.0
 
 ResolumeClearHotkey는 Resolume에서 클립 삭제(Clear)를 **Ctrl + Delete** 단축키로 실행할 수 있도록 해주는 간단한 시스템 트레이 앱입니다.
   
