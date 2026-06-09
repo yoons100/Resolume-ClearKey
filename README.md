@@ -1,5 +1,4 @@
-![Platform](https://img.shields.io/badge/platform-MacOS%20%7C%20Windows-6d9fba) [![Release](https://img.shields.io/badge/Release-V1.0-fc1ba6)](https://github.com/yoons100/Resolume-ClearKey/releases) [![License](https://img.shields.io/github/license/yoons100/Resolume-ClearKey)](https://github.com/yoons100/Resolume-ClearKey/blob/main/LICENSE)
-
+![Platform](https://img.shields.io/badge/platform-MacOS%20%7C%20Windows-6d9fba) [![Release](https://img.shields.io/badge/Release-V1.0-fc1ba6)](https://github.com/yoons100/Resolume-ClearKey/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/yoons100/Resolume-ClearKey/blob/main/LICENSE)
 ## Resolume Clear Hotkey V1.0
 
 ResolumeClearHotkey is a simple system tray App that assigns the **Ctrl + Delete** shortcut to clear selected clips in Resolume.  
